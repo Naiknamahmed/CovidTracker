@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  min-height: 100%;
+  padding-bottom: 20px;
+}
+header {
+  font-size: 2rem;
+}
+
+header {
+  min-height: 20vh;
+  text-align: center;
+  font-weight: 700;
+}
+.ant-row {
+  margin: 20px auto !important;
+  text-align: center;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+.ant-card-head {
+  font-size: 26px !important;
+  background-color: #fa0303 !important;
+  color: #fff !important;
+  border-bottom: 1px solid #fa0303 !important;
+}
